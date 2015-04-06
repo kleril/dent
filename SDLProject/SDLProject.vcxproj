@@ -39,20 +39,24 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TSXParser-master\include;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TMXParser-master\include;C:\Users\Tim\Documents\Visual Studio 2013\Projects\SDLProject\SDLProject;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_image-2.0.0\include;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2-2.0.3\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_image-2.0.0\lib\x86;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TSXParser-master\include;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TMXParser-master\include;C:\Users\Tim\Documents\Visual Studio 2013\Projects\SDLProject\SDLProject;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_image-2.0.0\include;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2-2.0.3\include;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_ttf-2.0.12\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_image-2.0.0\lib\x86;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2-2.0.3\lib\x86;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\SDL2_ttf-2.0.12\lib\x86;$(LibraryPath)</LibraryPath>
     <SourcePath>C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TSXParser-master\src;C:\Users\Tim\Documents\Visual Studio 2013\dev-lib\TMXParser-master\src;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

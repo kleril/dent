@@ -1,7 +1,9 @@
 #include <SDL.h>
 #include <SDL_image.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 #include <string>
+#include <cmath>
 #include <fstream>
 //My shit
 #include <Window.h>
@@ -35,6 +37,13 @@ bool init()
 		if (!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
 		{
 			printf("Warning: Linear texture filtering not enabled!");
+		}
+
+		//Initialize TrueType Fonts
+		if (TTF_Init() < 0)
+		{
+			printf("Warning: TrueType Fonts not enabled!\n");
+			success = false;
 		}
 
 		//Create window
@@ -79,6 +88,7 @@ void closeGame(){
 
 	//Quit SDL subsystems
 	IMG_Quit();
+	TTF_Quit();
 	SDL_Quit();
 }
 

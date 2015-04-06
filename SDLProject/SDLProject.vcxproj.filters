@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Headers">
+      <UniqueIdentifier>{2eff6f2c-8143-4c91-ad49-4764a7c44781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C++">
+      <UniqueIdentifier>{e7723155-6adb-4783-891a-55a8d1596db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{7d852dd8-9f63-4ed2-8b7c-6ca2400a682a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes">
+      <UniqueIdentifier>{7480ccbb-b9fe-40a9-9fbf-3624b8f636de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Headers">
+      <UniqueIdentifier>{a2620b5b-8e5f-4790-8c05-45fffdac8b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\C++">
+      <UniqueIdentifier>{26523bdf-3410-4d79-a92c-d37523cf7923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\Headers">
+      <UniqueIdentifier>{3da0d1c2-fddd-4671-8f4d-f9a4e70dd601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\C++">
+      <UniqueIdentifier>{457c49b6-3ae2-412c-a3ed-5b33282b6ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{a09e67c2-e666-4037-81d7-77f17847efc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{09ab2d71-494d-438e-a39c-711dad34246d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\C++">
+      <UniqueIdentifier>{96b9f0b7-4800-4285-adbf-b3260cac4923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Headers">
+      <UniqueIdentifier>{b4fee986-2d81-48ef-8370-f2a6c521e4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{dd708438-e641-4ad3-8a19-276f270607bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tiled Loader">
+      <UniqueIdentifier>{085627b3-ebca-4b02-ac26-53c6a6a696e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{54f2374b-759d-4cc5-a04a-2272733fdf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend\C++">
+      <UniqueIdentifier>{8facf934-71ee-4d6b-b6de-ad2586d46e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend\Headers">
+      <UniqueIdentifier>{bbbe37e1-55cf-40ba-8515-105a1462f5cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>Source Files\Components\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="MapComponent.cpp">
+      <Filter>Source Files\Components\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>Source Files\Components\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>Source Files\Systems\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Source Files\Systems\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>Source Files\Components\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="AISystem.cpp">
+      <Filter>Source Files\Systems\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSystem.cpp">
+      <Filter>Source Files\Systems\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="AITestEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="WallEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="tmx_map.cpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dev-lib\TMXParser-master\src\TMXParser.cpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="tsx_tileset.cpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dev-lib\TSXParser-master\src\TSXParser.cpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_utils.cpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Backend\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Backend\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Backend\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Backend\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Backend\C++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Source Files\Components\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapComponent.h">
+      <Filter>Source Files\Components\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseComponent.h">
+      <Filter>Source Files\Components\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>Source Files\Components\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Source Files\Systems\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>Source Files\Systems\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Source Files\Systems\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>Source Files\Components\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AISystem.h">
+      <Filter>Source Files\Systems\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSystem.h">
+      <Filter>Source Files\Systems\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="tmx_map.hpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="tsx_tileset.hpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_utils.hpp">
+      <Filter>Resource Files\Tiled Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\Backend\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Backend\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Backend\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Backend\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Source Files\Backend\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

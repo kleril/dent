@@ -1,0 +1,4 @@
+﻿  Game.cpp
+c:\users\tim\documents\visual studio 2013\projects\sdlproject\sdlproject\game.cpp(54): warning C4018: '<=' : signed/unsigned mismatch
+c:\users\tim\documents\visual studio 2013\projects\sdlproject\sdlproject\game.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+  SDLProject.vcxproj -> C:\Users\Tim\Documents\Visual Studio 2013\Projects\SDLProject\Debug\SDLProject.exe

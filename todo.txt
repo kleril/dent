@@ -1,0 +1,28 @@
+SDLProject Todo:
+Abstract:
+
+I/O & data types
+	Support for map files
+	Support for dialog files
+	Entity files?
+
+
+Tangibles:
+File(s) to be edited:
+
+
+
+
+
+In:
+TMX->Objects->Properties->
+
+TMX
+	Objects
+		Properties
+			External files for object.*
+	Tiles
+	
+	
+*
+Dialogue Files

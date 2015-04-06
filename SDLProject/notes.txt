@@ -1,0 +1,60 @@
+Object
+	Renderables
+	Controllers
+
+Render Order:
+Background
+Entity w/ lowest y co-ord
+	Run through all x co-ords(?)
+	
+Fuck speed for now, just write code that you can re-use everywhere
+
+
+
+Is a map a controller? Or its own object?
+What makes a map special?
+	The fact that it can hold other objects? Shouldn't be. What about more complex rederables w/ multiple unique parts? Vehicles should do this.
+
+Could be nothing. Pro-controller arguments:
+	Using map as a container allows easy passing of interesting parameters.
+	
+map:
+	Holds renderables
+		But how
+	Holds init info. for renderables (e.g. position)
+		Also how
+	Other stuff???
+	
+Renderables and their init info for a map should be paired somehow... Hm...
+
+
+
+
+
+
+
+
+Game::load(map mapToLoad)
+
+THINGS THAT GET LOADED:
+Renderables
+Controllers
+OR:
+Controllers
+	Renderables (contained in the 'map' controller)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+FOR MAPS:
+Hard and Soft map files.
+.hrd = unchanging, obfuscated
+.sft = contains all malleable entities (i.e. entities that can have their load params changed)
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="Test.tsx"/>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCSAGYhQA1PHQKQeBiz6RgEDAwAmoAAd
+  </data>
+ </layer>
+ <objectgroup name="Meep">
+  <object name="Ifyougottapenus" type="Keeponit" x="128" y="96" width="96" height="96"/>
+ </objectgroup>
+</map>

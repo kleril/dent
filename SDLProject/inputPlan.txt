@@ -1,0 +1,32 @@
+EXPLANATTION:
+map size (x,y)
+component
+	Global component modifiers (affects all components)
+----------
+co-ordinates (x,y)
+overwrite? (true = remove all loaded elements at this position, false = share space)
+object type
+	Object modifiers (can encompass multiple lines)
+repeat (down, right, shape (fill, box))
+
+
+EXAMPLES:
+(256,256)
+
+----------
+(0,0)
+true
+Background
+	assets/backgrounds/village.bmp
+(256,256,fill)
+----------
+(6,8)
+true
+Wall
+	assets/houseWall.bmp
+(10,15,box)
+----------
+(0,12)
+false
+Player
+	assets/player.bmp

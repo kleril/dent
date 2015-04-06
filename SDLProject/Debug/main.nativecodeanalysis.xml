@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\tim\documents\visual studio 2013\projects\sdlproject\sdlproject\</FILEPATH><FILENAME>main.cpp</FILENAME><LINE>98</LINE><COLUMN>8</COLUMN></SFA><DEFECTCODE>6326</DEFECTCODE><DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION><FUNCTION>SDL_main</FUNCTION><DECORATED>SDL_main</DECORATED><FUNCLINE>85</FUNCLINE><PATH/></DEFECT></DEFECTS>
